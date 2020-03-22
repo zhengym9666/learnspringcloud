@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="servicezuul" />
+        <module name="servicefein" />
+        <module name="serviceribbon" />
+        <module name="eurakaserver" />
+        <module name="eurakaclient" />
+        <module name="configserver" />
+        <module name="eurakaclient2" />
+        <module name="configclient" />
+        <module name="learnspringcloud" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configclient" options="-parameters" />
+      <module name="configserver" options="-parameters" />
+      <module name="eurakaclient" options="-parameters" />
+      <module name="eurakaclient2" options="-parameters" />
+      <module name="eurakaserver" options="-parameters" />
+      <module name="learnspringcloud" options="-parameters" />
+      <module name="servicefein" options="-parameters" />
+      <module name="serviceribbon" options="-parameters" />
+      <module name="servicezuul" options="-parameters" />
+    </option>
+  </component>
+</project>
