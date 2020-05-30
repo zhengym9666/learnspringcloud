@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8958/eureka/  #服务注册地址
+server:
+  port: 8771  #微服务的端口
+  tomcat:
+    max-threads: 50   #最大线程数
+spring:
+  application:
+    name: snow-service-consumer
+ribbon:
+  ConnectTimeout: 50000
+  ReadTimeout: 50000    #配置ribbon允许的最大超时数
+#feign:
+#  hystrix:
+#    enabled: false #断路器开关

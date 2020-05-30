@@ -6,17 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="servicezuul" />
+        <module name="servicesnowclient" />
+        <module name="servicesnowfein" />
         <module name="servicefein" />
         <module name="serviceribbon" />
         <module name="eurakaserver" />
         <module name="eurakaclient" />
         <module name="configserver" />
         <module name="eurakaclient2" />
+        <module name="servicezuul" />
         <module name="configclient" />
         <module name="learnspringcloud" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="learnspringcloud" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -28,6 +33,8 @@
       <module name="learnspringcloud" options="-parameters" />
       <module name="servicefein" options="-parameters" />
       <module name="serviceribbon" options="-parameters" />
+      <module name="servicesnowclient" options="-parameters" />
+      <module name="servicesnowfein" options="-parameters" />
       <module name="servicezuul" options="-parameters" />
     </option>
   </component>

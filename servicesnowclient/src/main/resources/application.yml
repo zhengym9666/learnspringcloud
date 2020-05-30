@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8958/eureka/  #服务注册地址
+server:
+  port: 8770  #模拟服务雪崩服务提供者微服务端口
+spring:
+  application:
+    name: snow-service-provider

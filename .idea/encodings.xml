@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/eurakaserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/servicefein" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/serviceribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/servicesnowclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/servicesnowfein" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/servicezuul" charset="UTF-8" />
   </component>
 </project>
